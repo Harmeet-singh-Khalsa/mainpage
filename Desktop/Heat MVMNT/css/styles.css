@@ -34,7 +34,9 @@ body
   margin: 5% 3% 5% 0;
 }
 
-
+.profileicon{
+  font-size:  30px;
+}
 /* footer section */
 #footer
 {
