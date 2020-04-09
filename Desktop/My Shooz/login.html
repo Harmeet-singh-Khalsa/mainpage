@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/login_style.css">
+    <script src="js/login_script.js"></script>
+  </head>
+
+  <body>
+  <div class="logmod">
+  <div class="logmod__wrapper">
+    <div class="logmod__container">
+      <ul class="logmod__tabs">
+        <li data-tabtar="lgm-2"><label class="heading">Log-in</label></li>
+      </ul>
+      <div class="logmod__tab-wrapper">
+      <div class="logmod__tab lgm-2">
+        <div class="logmod__heading">
+          <span class="logmod__heading-subtitle">Enter your email and password <strong>to sign in</strong></span>
+        </div> 
+        <div class="logmod__form">
+          <form accept-charset="utf-8" action="post" class="simform">
+            <div class="sminputs">
+              <div class="input full">
+                <label class="string optional" for="user-name">Email*</label>
+                <input class="string optional" maxlength="255" id="user-email" placeholder="Email" type="email" size="50" />
+              </div>
+            </div>
+            <div class="sminputs">
+              <div class="input full">
+                <label class="string optional" for="user-pw">Password *</label>
+                <input class="string optional" maxlength="255" id="user-pw" placeholder="Password" type="password" size="50" />
+                						<span class="hide-password">Show</span>
+              </div>
+            </div>
+            <div class="simform__actions">
+              <input type="checkbox" class="checkbox" id="remember_me">
+              <label for="remember_me">Remember me</label>
+    
+              
+              <span class="simform__actions-sidetext"><a class="special" role="link" href="#">Forgot your password?</a></span>
+            </div>
+            <input type="submit" name="submit" value="Submit" class="sub"> 
+          </form>
+        </div> 
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+  </body>
+</html>
