@@ -35,7 +35,23 @@ body
 }
 
 .profileicon{
-  font-size:  30px;
+  font-size:  40px;
+}
+.middle{
+  text-align:center;
+}
+
+.dropdown-content{
+  width:200px;
+  overflow: auto;
+  text-align: center;
+}
+.dropdown:hover>.dropdown-menu{
+  display: block;
+}
+
+.my-dropdown-toggle::after {
+    content: none;
 }
 /* footer section */
 #footer
