@@ -1,0 +1,19 @@
+ /* Large devices (desktops, less than 1200px) */
+@media (max-width: 1200px) {  }
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 992px) {
+    html {
+        font-size: 56.5%;
+      }
+ }
+
+ /* Small devices (landscape phones, less than 768px) */
+@media (max-width: 768px) {
+    html {
+        font-size: 50%;
+      }
+ }
+
+/* Small Phones */
+@media (max-width: 600px) {  }

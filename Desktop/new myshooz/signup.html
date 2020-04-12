@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>My Shooz</title>
+  <!-- bootstrap link -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/signup_styles.css ">
+  <link rel="stylesheet" href="css/queries.css">
+
+  <!-- font awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js">
+
+  </script>
+
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+
+
+</head>
+
+<body>
+	<div class="flex-center">
+		<div class="container">
+			<a href="index.html" class="crosssignup"><i class="fas fa-times"></i></a>
+			<div class="example">
+				<h1>Signup to <br>myShooz.</h1><br>
+			</div>
+
+			<form action="/save_details.php">
+        <div class="forms">
+          <input type="name" class="form-control" id="name" placeholder="Enter First Name" name="name">
+        </div>
+        <div class="forms">
+          <input type="name" class="form-control" id="name" placeholder="Enter Last Name" name="name">
+        </div>
+        <div class="forms">
+          <input type="email" class="form-control" id="email" placeholder="Enter E-mail" name="email">
+        </div>
+        <div class="forms">
+          <input type="text" class="form-control" id="number" placeholder="Enter Mobile No." name="num">
+        </div>
+        <div class="forms">
+          <input type="text" class="form-control" id="pincode" placeholder="Enter Pincode" name="pincode">
+        </div>
+        <label class="radiobutton">
+          <input type="radio" name="radio">Male
+        </label>
+        <label class="radiobutton">
+          <input type="radio" name="radio">Female
+        </label>
+        <label class="radiobutton">
+          <input type="radio" name="radio">Others
+        </label>
+        <div class="forms">
+          <input type="password" class="form-control" id="pwd" placeholder="Enter Password" name="pwd">
+        </div>
+        <div class="forms">
+          <input type="password" class="form-control" id="cpwd" placeholder="Retype Password" name="cpwd">
+        </div>
+
+				<button type="submit" class="btn btn-outline-danger">Register</button>
+			</form>
+			  <p class="paccount">Already have an account? <a href="login.html" class="login">Login</a></p>
+		</div>
+	</div>
+
+
+	<!--------- SCRIPT TAGS -------->
+
+	<!-- bootstrap script -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
+	<script src="./js/search.js"></script>
+</body>
+</html>
