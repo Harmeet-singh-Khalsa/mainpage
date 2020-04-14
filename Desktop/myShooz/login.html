@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>My Shooz</title>
+
+	<!-- bootstrap link -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!-- font awesome -->
+	<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+
+	
+	<!-------  CUSTOM CSS ------->
+	<link rel="stylesheet" href="css/login_styles.css ">
+	<link rel="stylesheet" href="css/queries.css">
+</head>
+
+<body>
+	<div class="flex-center">
+		<div class="container">
+			<a href="index.html" class="crosslogin"><i class="fas fa-times"></i></a>
+			<div class="example">
+				<h1>Login to <br>myShooz. </h1><br>
+			</div>
+
+			<form action="/save_details.php">
+				<div class="box">
+					<input type="email" class="form-control" id="email" placeholder="Enter E-mail or Phone Number"
+						name="email">
+				</div>
+
+				<div class="forms box">
+					<input type="password" class="form-control" id="pwd" placeholder="Enter Password" name="pwd">
+				</div>
+
+				<div class="checkbox">
+					<label><input type="checkbox" name="remember"> Remember me</label><a href="#"
+						class="Forgotpass">Forgot
+						Password?</a>
+				</div>
+
+				<button type="submit" class="btn btn-outline-danger">Register</button>
+			</form>
+			<p class="paccount">New to myshooz? <a href="signup.html" class="signup">Signup</a></p>
+		</div>
+	</div>
+
+
+	<!--------- SCRIPT TAGS -------->
+
+	<!-- bootstrap script -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
+	<script src="./js/search.js"></script>
+</body>
+
+</html>
